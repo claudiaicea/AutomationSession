@@ -28,6 +28,7 @@ public class Inputs {
         Assert.assertEquals(driver.findElement(By.cssSelector("#content > div > div > div > input[type=number]")).getAttribute("value"), "1234");
         logger.info("Test 2 passed");
         Thread.sleep(2000);
+
         driver.quit();
     }
 }
