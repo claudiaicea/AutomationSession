@@ -16,7 +16,7 @@ public class Hovers {
         WebDriver driver = new ChromeDriver();
 
         //Opens URL
-        driver.get("http://the-internet.herokuapp.com/");
+        driver.get("http://the-internet.herokuapp.com/"); //hola
         //Clicks on exercise link
         driver.findElement(By.cssSelector("#content > ul > li:nth-child(25) > a")).click();
         //Creates a builder object to use Actions (moveToElement)
