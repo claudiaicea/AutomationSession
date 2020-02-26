@@ -34,6 +34,7 @@ public class Checkboxes {
         //Closes webdriver
         driver.quit();
 
+
     }
 
 

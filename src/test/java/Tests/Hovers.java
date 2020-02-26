@@ -23,6 +23,7 @@ public class Hovers {
         Actions builder = new Actions(driver);
         Thread.sleep(2000);
 
+
         //Hover element 1
         WebElement element1 = driver.findElement(By.cssSelector("#content > div > div:nth-child(3) > img"));
         builder.moveToElement(element1).perform();
